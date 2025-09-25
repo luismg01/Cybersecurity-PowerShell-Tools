@@ -74,3 +74,7 @@ Las contribuciones son bienvenidas. Por favor, abre problemas o solicitudes con 
 ## Licencia
 
 Licencia MIT — usar bajo su responsabilidad.
+
+## 📞 Contacto
+
+*Luis Miguel Martín González* - [luismiguelmartingonzalez@gmail.com](mailto:luismiguelmartingonzalez@gmail.com) - [Perfil de LinkedIn](https://www.linkedin.com/in/luismiguelmartingonzalez/)
