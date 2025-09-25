@@ -14,11 +14,11 @@ Kit compacto y práctico de scripts PowerShell creado para consultores de seguri
 
 ## Requisitos
 
-* Windows (cliente o servidor) con PowerShell. Los scripts son compatibles con PowerShell 5.1 y posteriores.
+* Windows (cliente o servidor) con PowerShell. Los scripts son compatibles con **PowerShell 5.1** y posteriores.
 
-* Para consultas de Active Directory: módulo ActiveDirectory (RSAT) disponible en la máquina o ejecutar en un Controlador de Dominio.
+* Para consultas de Active Directory: **módulo ActiveDirectory (RSAT)** disponible en la máquina o ejecutar en un Controlador de Dominio.
 
-* Ejecutar PowerShell como Administrador para acceder al registro Security y otras funcionalidades.
+* Ejecutar PowerShell como **Administrador** para acceder al registro Security y otras funcionalidades.
 
 ## 🚀 Inicio rápido
 
@@ -29,17 +29,20 @@ Kit compacto y práctico de scripts PowerShell creado para consultores de seguri
 3. Ejemplos:
 
 ### Ejecutar el escáner de AD y guardar CSV
+```
 .\Invoke-BasicADScanner.ps1 -OutputPath .\AD_Audit_Report.csv
-
+```
 
 ### Recolectar eventos críticos de seguridad de los últimos 2 días y guardar JSON
+```
 .\Get-CriticalSecurityEvents.ps1 -Days 2 -OutputPath .\events.json
-
+```
 
 ### Cargar la función de ofuscación y usarla interactivamente
+```
 . .\Invoke-BasicObfuscation.ps1
 Invoke-BasicObfuscation -Command "Write-Host 'Hola Mundo'"
-
+```
 Consejo: Usa dot-sourcing (. .\script.ps1) cuando quieras cargar funciones en la sesión actual.
 
 ## Características y notas
