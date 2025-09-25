@@ -67,6 +67,10 @@ Estas herramientas se proporcionan únicamente para evaluaciones de seguridad au
 
 * Integra los resultados en pipelines CSV/JSON o conviértelos a ECS/CEF para ingestión en SIEMs.
 
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor, abre problemas o solicitudes con mejoras, scripts adicionales o mejor parseo/formateo para tu entorno.
+
 ## Licencia
 
 Licencia MIT — usar bajo su responsabilidad.
