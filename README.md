@@ -78,3 +78,7 @@ Contributions are welcome. Please open issues or pull requests with improvements
 ## License
 
 MIT License — use at your own risk.
+
+## 📞 Contact
+
+*Luis Miguel Martín González* - [luismiguelmartingonzalez@gmail.com](mailto:luismiguelmartingonzalez@gmail.com) - [LinkedIn Profile](https://www.linkedin.com/in/luismiguelmartingonzalez/)
