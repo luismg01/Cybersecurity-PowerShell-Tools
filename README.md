@@ -31,7 +31,7 @@ A compact, practical toolkit of PowerShell scripts built for security consultant
 2. Open PowerShell as Administrator.
 
 3. Examples:
-'''
+```
 ### Run AD scanner and save CSV
 .\Invoke-BasicADScanner.ps1 -OutputPath .\AD_Audit_Report.csv
 
@@ -43,9 +43,9 @@ A compact, practical toolkit of PowerShell scripts built for security consultant
 ### Load obfuscation function and run interactively
 . .\Invoke-BasicObfuscation.ps1
 Invoke-BasicObfuscation -Command "Write-Host 'Hello World'"
-'''
-Tip: Dot-source (. .\script.ps1) scripts when you want to load functions into your current session.
 
+Tip: Dot-source (. .\script.ps1) scripts when you want to load functions into your current session.
+```
 ## Features & Notes
 
 * Uses XML-based event parsing for robust, language-independent extraction of fields like TargetUserName, ProcessName, etc.
