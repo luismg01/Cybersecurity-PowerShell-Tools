@@ -1,4 +1,4 @@
-## PowerShell Tools for Cybersecurity & Pentesting
+# PowerShell Tools for Cybersecurity & Pentesting
 
 ## Overview
 
@@ -32,15 +32,15 @@ A compact, practical toolkit of PowerShell scripts built for security consultant
 
 3. Examples:
 
-# Run AD scanner and save CSV
+### Run AD scanner and save CSV
 .\Invoke-BasicADScanner.ps1 -OutputPath .\AD_Audit_Report.csv
 
 
-# Collect security events for the last 2 days and save JSON
+### Collect security events for the last 2 days and save JSON
 .\Get-CriticalSecurityEvents.ps1 -Days 2 -OutputPath .\events.json
 
 
-# Load obfuscation function and run interactively
+### Load obfuscation function and run interactively
 . .\Invoke-BasicObfuscation.ps1
 Invoke-BasicObfuscation -Command "Write-Host 'Hello World'"
 

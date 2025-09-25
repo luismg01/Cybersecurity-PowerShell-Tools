@@ -1,4 +1,4 @@
-## Herramientas PowerShell para Ciberseguridad y Pentesting
+# Herramientas PowerShell para Ciberseguridad y Pentesting
 
 ## Resumen
 
@@ -28,15 +28,15 @@ Kit compacto y práctico de scripts PowerShell creado para consultores de seguri
 
 3. Ejemplos:
 
-# Ejecutar el escáner de AD y guardar CSV
+### Ejecutar el escáner de AD y guardar CSV
 .\Invoke-BasicADScanner.ps1 -OutputPath .\AD_Audit_Report.csv
 
 
-# Recolectar eventos críticos de seguridad de los últimos 2 días y guardar JSON
+### Recolectar eventos críticos de seguridad de los últimos 2 días y guardar JSON
 .\Get-CriticalSecurityEvents.ps1 -Days 2 -OutputPath .\events.json
 
 
-# Cargar la función de ofuscación y usarla interactivamente
+### Cargar la función de ofuscación y usarla interactivamente
 . .\Invoke-BasicObfuscation.ps1
 Invoke-BasicObfuscation -Command "Write-Host 'Hola Mundo'"
 
