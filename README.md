@@ -18,11 +18,11 @@ A compact, practical toolkit of PowerShell scripts built for security consultant
 
 ## Requirements
 
-* Windows (client or server) with PowerShell. Scripts are compatible with PowerShell 5.1 and later.
+* Windows (client or server) with PowerShell. Scripts are compatible with **PowerShell 5.1** and later.
 
-* For Active Directory queries: ActiveDirectory PowerShell module (RSAT) available on the host or run on a Domain Controller.
+* For Active Directory queries: **ActiveDirectory PowerShell module (RSAT)** available on the host or run on a Domain Controller.
 
-* Run PowerShell as Administrator to access Security logs and certain OS features.
+* Run PowerShell as **Administrator** to access Security logs and certain OS features.
 
 ## 🚀 Quick Start
 
@@ -31,21 +31,24 @@ A compact, practical toolkit of PowerShell scripts built for security consultant
 2. Open PowerShell as Administrator.
 
 3. Examples:
-```
-### Run AD scanner and save CSV
-.\Invoke-BasicADScanner.ps1 -OutputPath .\AD_Audit_Report.csv
 
+### Run AD scanner and save CSV
+```
+.\Invoke-BasicADScanner.ps1 -OutputPath .\AD_Audit_Report.csv
+```
 
 ### Collect security events for the last 2 days and save JSON
+```
 .\Get-CriticalSecurityEvents.ps1 -Days 2 -OutputPath .\events.json
-
+```
 
 ### Load obfuscation function and run interactively
+```
 . .\Invoke-BasicObfuscation.ps1
 Invoke-BasicObfuscation -Command "Write-Host 'Hello World'"
-
-Tip: Dot-source (. .\script.ps1) scripts when you want to load functions into your current session.
 ```
+Tip: Dot-source (. .\script.ps1) scripts when you want to load functions into your current session.
+
 ## Features & Notes
 
 * Uses XML-based event parsing for robust, language-independent extraction of fields like TargetUserName, ProcessName, etc.
